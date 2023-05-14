@@ -1,0 +1,4 @@
+rootProject.name = 'mastercard'
+
+include ':kernel-common'
+project(':kernel-common').projectDir=new File("$settingsDir/../kernel-common")
